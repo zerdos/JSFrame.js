@@ -1,6 +1,7 @@
 {
-  "name": "jsframe.js",
-  "version": "1.6.3",
+  "name": "@zedvision/jsframe"
+  "private": "false",
+  "version": "6.0.0",
   "description": "It is an independent lightweight multi-window library for javascript.\r - Create various popup windows.\r - Styling the appearance flexibly.",
   "main": "lib/jsframe.min.js",
   "scripts": {
@@ -11,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riversun/JSFrame.js.git"
+    "url": "git+https://github.com/zerdos/JSFrame.js.git"
   },
   "author": "Tom Misawa <riversun.org@gmail.com> (https://github.com/riversun)",
   "license": "MIT",
