@@ -27,6 +27,9 @@
     "js",
     "ui"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/riversun/JSFrame.js#readme",
   "devDependencies": {
     "@babel/core": "^7.12.9",
