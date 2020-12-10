@@ -116,7 +116,7 @@ function CBeanFrame(beanId, left, top, width, height, zindex, w_border_width, ap
         // The "mousedown" event happens right after "touchstart" event,
         // but I don't call #preventdefault because #preventdefault prevents "onclick".
         // So, perform #preventdefault only for "touchmove"
-        // evt.preventDefault();
+        evt.preventDefault();
         me.onmouseDown.bind(this)(evt);
       };
       me.htmlElement.ontouchstart = funcOnTouchStart;
